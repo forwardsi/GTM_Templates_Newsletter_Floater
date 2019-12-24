@@ -1,0 +1,3 @@
+# FWD Notifications - Newsletter floater
+
+Documentation to be added...

@@ -1,0 +1,5 @@
+homepage: "https://www.forward.si"
+documentation: "https://github.com/forwardsi/WebNotificationsLibrary",
+versions:
+  - sha:
+    changeNotes: Initial release
