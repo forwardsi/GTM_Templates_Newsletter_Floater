@@ -119,6 +119,12 @@ ___TEMPLATE_PARAMETERS___
         "name": "logo",
         "displayName": "Logo URL",
         "simpleValueType": true
+      },
+      {
+        "type": "CHECKBOX",
+        "name": "borderRadius",
+        "checkboxText": "Apply border radius to container and buttons",
+        "simpleValueType": true
       }
     ]
   },
