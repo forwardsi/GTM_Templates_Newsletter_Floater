@@ -2,8 +2,10 @@ homepage: "https://www.forward.si"
 documentation: "https://github.com/forwardsi/WebNotificationsLibrary",
 versions:
   # Latest version
+  - sha: eb830ce887aa5983b0155923c401d7c6721d15e9
+    changeNotes: Added checkbox to apply border radius to some floater elements
+  # Older versions
   - sha: a7c09cdd0adef4f5545e05f6bdce787a862425ad
     changeNotes: Updated file names to match GTM convetion
-  # Older versions
   - sha: de06ee93e8a759da88de42adc639f9a672ec7ed3
     changeNotes: Initial release
