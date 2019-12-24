@@ -1,5 +1,7 @@
 homepage: "https://www.forward.si"
 documentation: "https://github.com/forwardsi/WebNotificationsLibrary",
 versions:
+  - sha: 5ee3def553f0e81696b6499ed0b5965f32e93daf
+    changeNotes: Updated file names to match GTM convetion
   - sha: de06ee93e8a759da88de42adc639f9a672ec7ed3
     changeNotes: Initial release
