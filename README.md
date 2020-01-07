@@ -7,7 +7,7 @@ Google Tag Manager template for displaying FWD Web Notifications on your website
 ## Template configuration
 
 #### Setup
-- Product key: Enter the product key obtained when the product was purchased. In case of errors or troubles, please don't hasitate to contact [support@forwardapps.si](mailto:support@forwardapps.si)
+- Product key: Enter the product key obtained when the product was purchased. In case of errors or troubles, please don't hesitate to contact [support@forwardapps.si](mailto:support@forwardapps.si)
 - Cookie Name (optional): Enter the name under which the cookie for capturing user action on notification will be created. Leave blank to use default cookie name (fwd_web_notification)
 
 #### Configurataion
