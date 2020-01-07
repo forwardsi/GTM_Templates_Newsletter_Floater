@@ -2,9 +2,11 @@ homepage: "https://www.forward.si"
 documentation: "https://github.com/forwardsi/GTM_Templates_Newsletter_Floater",
 versions:
   # Latest version
+  - sha: dab03ba5af5a0ad57abce2ad65cee6803a940a54
+    changeNotes: Added template documentation. URL encoded user provided product key.
+  # Older versions
   - sha: eb830ce887aa5983b0155923c401d7c6721d15e9
     changeNotes: Added checkbox to apply border radius to some floater elements
-  # Older versions
   - sha: a7c09cdd0adef4f5545e05f6bdce787a862425ad
     changeNotes: Updated file names to match GTM convetion
   - sha: de06ee93e8a759da88de42adc639f9a672ec7ed3
