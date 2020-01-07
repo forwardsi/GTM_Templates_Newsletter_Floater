@@ -201,8 +201,7 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 const log = require('logToConsole');
 const load = require('injectScript');
 const setInWindow = require('setInWindow');
-
-log(data);
+const encodeUriComponent = require('encodeUriComponent');
 
 const floaterData = {
   configuration: {
@@ -233,7 +232,7 @@ if (data.delayLoad) {
 
 setInWindow('fwd_notification_data', floaterData, true);
 
-const scriptUrl = 'https://webapps.move.forward.si/webnotifications?key=' + data.key + '&initializedViaParams=true';
+const scriptUrl = 'https://webapps.move.forward.si/webnotifications?key=' + encodeUriComponent(data.key) + '&initializedViaParams=true';
 load(scriptUrl, data.gtmOnSuccess, data.gtmOnFailure, scriptUrl);
 
 
